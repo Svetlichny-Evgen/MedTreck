@@ -1,0 +1,118 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ПІБ:"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"/>
+
+    <TextView
+            android:id="@+id/full_name_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Номер мединої картки:"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+    <TextView
+            android:id="@+id/medical_card_number_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Адреса:"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+    <TextView
+            android:id="@+id/address_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Номер телефону:"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+    <TextView
+            android:id="@+id/phone_number_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-mail:"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+    <TextView
+            android:id="@+id/email_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Палата пацієнта:"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+    <TextView
+            android:id="@+id/room_number_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"/>
+
+    <Button
+            android:id="@+id/appointments_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Провести облік"
+            android:layout_marginTop="16dp"/>
+    <Button
+            android:id="@+id/appointmentsList_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Переглянути список подій"
+            android:layout_marginTop="16dp"/>
+    <Button
+            android:id="@+id/delete_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Видалити"
+            android:layout_marginTop="8dp"/>
+
+    <Button
+            android:id="@+id/back_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Назад"
+            android:layout_marginTop="8dp"/>
+
+</LinearLayout>

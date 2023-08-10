@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".AppointmentsList">
+
+    <TextView
+            android:id="@+id/patient_name_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:padding="16dp"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:text="ПІБ пацієнта"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/patient_name_textview"
+            android:layout_above="@+id/back_button">
+
+        <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+            <!-- Ваш код для добавления строк и столбцов в таблицу -->
+
+        </TableLayout>
+    </ScrollView>
+
+    <Button
+            android:id="@+id/back_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Назад"/>
+
+</RelativeLayout>
